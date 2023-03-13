@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
+  "rushVersion": "5.90.2",
+  "pnpmVersion": "7.27.1",
+  "nodeSupportedVersionRange": ">=16.13.0 <17.0.0",
+  "allowedProjectTags": ["packages", "tools"],
+  "projects": [
+    {
+      "packageName": "test-package",
+      "projectFolder": "test-package",
+      "tags": ["packages"]
+    },
+    {
+      "packageName": "@this/tools",
+      "projectFolder": "tools",
+      "tags": ["tools"]
+    }
+  ]
+}

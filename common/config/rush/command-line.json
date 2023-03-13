@@ -1,0 +1,14 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/command-line.schema.json",
+  "commands": [
+    {
+      "name": "index",
+      "commandKind": "bulk",
+      "summary": "Run script to create index files on each package",
+      "description": "Iterates through each package in the monorepo and runs the 'index' script",
+      "enableParallelism": true,
+      "ignoreMissingScript": true,
+      "ignoreDependencyOrder": true
+    }
+  ]
+}

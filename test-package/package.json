@@ -1,0 +1,16 @@
+{
+  "name": "test-package",
+  "version": "1.0.0",
+  "private": true,
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "build": "tool-system-build",
+    "index": "tool-system-index"
+  },
+  "devDependencies": {
+    "@this/tools": "",
+    "typescript": "~4.8.0",
+    "ctix": "~1.8.2"
+  }
+}

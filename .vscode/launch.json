@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Run All The Things!",
+        "program": "${workspaceFolder}/run-all-the-things.js",
+        "cwd": "${workspaceFolder}",
+        "console": "integratedTerminal",
+        "sourceMaps": true,
+        "autoAttachChildProcesses": false,
+      }
+    ]
+}
